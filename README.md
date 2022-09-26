@@ -1,1 +1,3 @@
-librosa
+librosa 練習
+
+     
