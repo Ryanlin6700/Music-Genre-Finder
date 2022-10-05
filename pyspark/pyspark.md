@@ -15,6 +15,11 @@
   >去掉第一個 index 欄位，因為的一個欄位沒有名稱，再轉 `pyspark.sql.dataframe.DataFrame`會有錯誤。
   
   ### 檔案3: `allmusic3s_new_mltest.py`
+  **** .py 的程式 ****
+  > 目前只可以開 spark jupter lab `./pysparklab.sh` 在終端機執行 (待研究...)
+  > 指令 `python3 allmusic3s_new_mltest.py` 即可執行。
+  <br>
+  <br>
 ***
 ## 10/4 
 _psMLtest_1004.ipynb_ 測試過程
