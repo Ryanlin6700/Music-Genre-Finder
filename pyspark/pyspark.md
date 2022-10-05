@@ -6,8 +6,8 @@
   >3. 到目錄下 `/etc/local/saprk/` or `cd $SPARK_HOME`
   >4. 開啟 spark jupter lab `./pysparklab.sh`
   >5. 執行即可。
-  >※內容可以選擇執行叢集或單幾版運算，另外要使用 Hdfs 要先上傳`allmusic3s_new_mltest.py` Hadoop 分散式系統
-  >在補上 load file `hdfs://bdse120.example.com/tmp`程式碼
+  >※內容可以選擇執行叢集或單幾版運算，另外要使用 Hdfs 要先上傳`allmusic3s_new_mltest.py` 到Hadoop 分散式系統
+  >在補上load file `hdfs://bdse120.example.com/tmp`程式碼
  
   ### 檔案2: `allmusic3s_new_mltest.py`
   **** 需要訓練的檔案  _※注意!!! 與目前的格式稍有不同_ ****
