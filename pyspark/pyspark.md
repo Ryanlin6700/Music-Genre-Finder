@@ -9,8 +9,8 @@
  
   ### 檔案2: `allmusic3s_new_mltest.py`
   **** 需要訓練的檔案  _※注意!!! 與目前的格式稍有不同_ ****
-  在合併資料時，匯出.csv 指令參數增加 index=False `pandas.to_csv(xxxx.csv, indext=False)`
-  去掉第一個 index 欄位因為的一個欄位沒有名稱，再轉 `pyspark.sql.dataframe.DataFrame`會有錯誤。
+  >在合併資料時，匯出.csv 指令參數增加 index=False `pandas.to_csv(xxxx.csv, indext=False)`
+  >去掉第一個 index 欄位因為的一個欄位沒有名稱，再轉 `pyspark.sql.dataframe.DataFrame`會有錯誤。
   
 ***
 ## 10/4 
