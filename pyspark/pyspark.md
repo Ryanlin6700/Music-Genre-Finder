@@ -20,7 +20,9 @@
   > 指令 `python3 allmusic3s_new_mltest.py` 即可執行。
   <br>
   <br>
+  
 ***
-## 10/4 
+
+# 10/4 
 _psMLtest_1004.ipynb_ 測試過程
 
