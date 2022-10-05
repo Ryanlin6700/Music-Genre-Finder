@@ -11,8 +11,8 @@
  
   ### 檔案2: `allmusic3s_new.csv` 檔案太大沒有上傳github
   ***** 需要訓練的檔案  _※注意!!! 與目前的格式稍有不同_ *****
-  >在合併資料時，匯出.csv 指令參數增加 index=False `pandas.to_csv(xxxx.csv, indext=False)`
-  >去掉第一個 index 欄位，因為的一個欄位沒有名稱，再轉 `pyspark.sql.dataframe.DataFrame`會有錯誤。
+  >在合併資料時，匯出.csv 指令需要參數增加 index=False `pandas.to_csv(xxxx.csv, indext=False)`
+  >來去掉第一個 index 欄位就沒問題，因為的一個欄位沒有名稱，再轉 `pyspark.sql.dataframe.DataFrame`會有錯誤。
   
   ### 檔案3: `allmusic3s_new_mltest.py` 
   ***** .py 的程式 *****
