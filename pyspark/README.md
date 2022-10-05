@@ -9,12 +9,12 @@
   >※內容可以選擇執行叢集或單幾版運算，另外要使用 Hdfs 要先上傳`allmusic3s_new.csv` 到Hadoop 分散式系統
   >在補上load file `hdfs://bdse120.example.com/tmp`程式碼
  
-  ### 檔案2: `allmusic3s_new.csv`
+  ### 檔案2: `allmusic3s_new.csv` 檔案太大沒有上傳github
   ***** 需要訓練的檔案  _※注意!!! 與目前的格式稍有不同_ *****
   >在合併資料時，匯出.csv 指令參數增加 index=False `pandas.to_csv(xxxx.csv, indext=False)`
   >去掉第一個 index 欄位，因為的一個欄位沒有名稱，再轉 `pyspark.sql.dataframe.DataFrame`會有錯誤。
   
-  ### 檔案3: `allmusic3s_new_mltest.py` 檔案太大沒有上傳github
+  ### 檔案3: `allmusic3s_new_mltest.py` 
   ***** .py 的程式 *****
   > 目前只可以開 spark jupter lab `./pysparklab.sh` 在終端機執行 (待研究...)
   > 指令 `python3 allmusic3s_new_mltest.py` 即可執行。
