@@ -1,4 +1,4 @@
-# 10/5  
+# 10/6  
   ### 檔案1: `recommend_songlist.py`
   ***** 輸入 “風格+編號“ 可以推薦相識歌單 （內建資料集）*****
   >1. 準備檔案 `allmusic3s.csv` 放到與程式碼同一個資料夾
@@ -9,9 +9,9 @@
   ***** 接續 url 模型，使用 *****
   >`url` youtube 連結。*不可從清單中複製連結會報錯！！！*
   >`file_name` 自定義。*執行三個檔案必須要一致*
-  >1. `python videodownload.py url file_name`    
-  >2. `python preprocessing.py file_name`     
-  >3. `python recommend_songlist_2.py file_name` 
+  >1. 指令`python videodownload.py url file_name`    
+  >2. 指令`python preprocessing.py file_name`     
+  >3. 指令`python recommend_songlist_2.py file_name` 
   
   ### 檔案3: `allmusic3s_new.csv` 
   ***** 3秒資料集 *****
