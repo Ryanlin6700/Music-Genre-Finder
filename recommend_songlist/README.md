@@ -10,7 +10,7 @@
   >`url` youtube 連結。*不可從清單中複製連結會報錯！！！*
   >`file_name` 自定義。*執行三個檔案必須要一致*
   >1. 指令`python videodownload.py url file_name`    
-  >2. 指令`python preprocessing.py file_name`     
+  >2. 指令`python preprocessing.py file_name` _跑很久請耐心等待....幾分鐘_
   >3. 指令`python recommend_songlist_2.py file_name` 
   >4. 推薦表單。
   
