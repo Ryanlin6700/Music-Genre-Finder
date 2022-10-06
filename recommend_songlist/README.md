@@ -7,8 +7,8 @@
  
   ### 檔案2: `recommend_songlist_2.py` 
   ***** 接續 url 模型，使用 *****
-  `url` youtube 連結。 *不可從清單中複製連結會報錯！！！*
-  `file_name` 自定義，執行三個檔案必須要一致
+  >`url` youtube 連結。 *不可從清單中複製連結會報錯！！！*
+  >`file_name` 自定義。_執行三個檔案必須要一致_
   >`python videodownload.py url file_name`    # 下載影片，url輸入yt影片網址，file_name隨便給一個檔名，下面兩個程式呼叫用這個檔名
   >`python preprocessing.py file_name`     # 前處理
   >`python recommend_songlist_2.py file_name` 
