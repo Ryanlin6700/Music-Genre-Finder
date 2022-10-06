@@ -13,7 +13,7 @@
   >2. 指令`python preprocessing.py file_name`     
   >3. 指令`python recommend_songlist_2.py file_name` 
   
-  ### 檔案3: `allmusic3s_new.csv` 
+  ### 檔案3: `allmusic3s.csv` 
   ***** 3秒資料集 *****
   >google 雲端連結
   https://drive.google.com/file/d/1K5ozXFQb5sxmN9hgr1ZkKlgxeZ1VjlfL/view?usp=sharing
