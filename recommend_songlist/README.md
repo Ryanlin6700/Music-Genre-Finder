@@ -2,7 +2,7 @@
   ### 檔案1: `recommend_songlist.py`
   ***** 輸入 “風格+編號“ 可以推薦相識歌單 （內建資料集）*****
   >1. 準備檔案 `allmusic3s.csv` 放到與程式碼同一個資料夾
-  >2. 終端機輸入指令 `python recommend_songlist.py allmusic3s.csv song_name`  song_name ex: jazz5、pop30... 每個風格50首
+  >2. 終端機輸入指令 `python recommend_songlist.py allmusic3s.csv songname`  songname _ex: jazz5、pop30... 每個風格50首_
   >3. 推薦表單。
  
   ### 檔案2: `recommend_songlist_2.py` 
