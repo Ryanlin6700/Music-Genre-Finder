@@ -3,7 +3,7 @@
   ***** 配合下載歌曲、轉特徵.py 使用可以推薦相識歌單，新增歌名 + url （finalcav資料集）*****
   >1. 準備檔案 `videodownload.py` `preprocessing.py` 放到與程式碼同一個資料夾。
   >2. 接續步驟 (參考`recommend_songlist_2.py`使用)
-  > inalcav資料集: https://github.com/Leo840811/music/tree/main/modeltest
+ d finalcav資料集: https://github.com/Leo840811/music/tree/main/modeltest
 *** 
 <br>
 # 10/6  相似歌單推薦
