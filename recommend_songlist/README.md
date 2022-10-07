@@ -26,8 +26,6 @@ finalcav 資料集: https://github.com/Leo840811/music/tree/main/modeltest
   >2. 指令`python preprocessing.py file_name` _跑很久請耐心等待....幾分鐘_
   >3. 指令`python recommend_songlist_2.py file_name` 
   >4. 推薦表單。
-<br>
-
 `videodownload.py` `preprocessing.py`: https://github.com/Leo840811/music/tree/main/modeltest
 
   ### 檔案: `allmusic3s.csv` 
