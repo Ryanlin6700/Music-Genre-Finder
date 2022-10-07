@@ -30,8 +30,6 @@ finalcav 資料集: https://github.com/Leo840811/music/tree/main/modeltest
 
 `videodownload.py` `preprocessing.py`: https://github.com/Leo840811/music/tree/main/modeltest
 
-<br>
-  
   ### 檔案: `allmusic3s.csv` 
   ***** 3秒資料集 *****
   >google 雲端連結
