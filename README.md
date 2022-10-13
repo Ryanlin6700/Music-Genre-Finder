@@ -1,6 +1,9 @@
 ## librosa_reference
 >音檔匯入特徵函數測試，繪製頻譜、播放音檔等參考 jupyter notebook 呈現。
 >
+## librosa_to_csv
+>優化`preprocessing.py`程式碼。
+>
 ## model test
 >機器學習模型試跑，用 `allmusic3s.csv` 資料集。
 
