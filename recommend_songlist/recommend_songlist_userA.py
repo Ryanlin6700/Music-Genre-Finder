@@ -59,11 +59,11 @@ def find_similar_songs(file_name):
     tmpdf = pd.DataFrame(series, index=series.index) # series -> dataframe
     # 合併
     similar_list = tmpdf.join(songlist)
-    return similar_list
     
     # 印出標題輸入歌曲名稱和前面相識最高的前五首歌名
     print("\n","*"*31,"\n Similar songs to [",file_name,"]","\n","*"*31,)
     print(similar_list.iloc[:,1:])
+    return similar_list
 
 # file_name = ""
 file_name = sys.argv[1] # 執行時輸入第一個字串
