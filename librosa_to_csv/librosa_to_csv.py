@@ -107,7 +107,7 @@ def Video_to_csv(file_name):
 
 def librosa_feature_op(file_path, csv_path):
     
-    # 可註解掉“特徵字典”內的值，挑出需要轉出的特徵。注意：mfcc ＆ mfcc-delta 為一組，需要一起註解掉。
+    # 可註解掉“特徵字典”內的值，挑出需要轉出的特徵。注意：mfcc、 mfcc-delta 為一組，需要一起註解掉。
     # 特徵字典
     feature_dir = {
     0: 'song_name',
@@ -127,7 +127,7 @@ def librosa_feature_op(file_path, csv_path):
     14: 'melspectrogram_std',
     15: 'melspectrogram_var',
         
-    16: 'mfcc1_mean',
+    16: 'mfcc1_mean', # 一組
     17: 'mfcc2_mean',
     18: 'mfcc3_mean',
     19: 'mfcc4_mean',
@@ -148,7 +148,7 @@ def librosa_feature_op(file_path, csv_path):
     34: 'mfcc19_mean',
     35: 'mfcc20_mean',
         
-    36: 'mfcc1_std',
+    36: 'mfcc1_std', # 一組
     37: 'mfcc2_std',
     38: 'mfcc3_std',
     39: 'mfcc4_std',
@@ -169,7 +169,7 @@ def librosa_feature_op(file_path, csv_path):
     54: 'mfcc19_std',
     55: 'mfcc20_std',
         
-    56: 'mfcc1_var',
+    56: 'mfcc1_var', # 一組
     57: 'mfcc2_var',
     58: 'mfcc3_var',
     59: 'mfcc4_var',
@@ -190,7 +190,7 @@ def librosa_feature_op(file_path, csv_path):
     74: 'mfcc19_var',
     75: 'mfcc20_var',
         
-    76: 'mfcc1_delta_mean',
+    76: 'mfcc1_delta_mean', # 一組
     77: 'mfcc2_delta_mean',
     78: 'mfcc3_delta_mean',
     79: 'mfcc4_delta_mean',
@@ -211,7 +211,7 @@ def librosa_feature_op(file_path, csv_path):
     94: 'mfcc19_delta_mean',
     95: 'mfcc20_delta_mean',
         
-    96: 'mfcc1_delta_std',
+    96: 'mfcc1_delta_std', # 一組
     97: 'mfcc2_delta_std',
     98: 'mfcc3_delta_std',
     99: 'mfcc4_delta_std',
@@ -232,7 +232,7 @@ def librosa_feature_op(file_path, csv_path):
     114: 'mfcc19_delta_std',
     115: 'mfcc20_delta_std',
         
-    116: 'mfcc1_delta_var',
+    116: 'mfcc1_delta_var', # 一組
     117: 'mfcc2_delta_var',
     118: 'mfcc3_delta_var',
     119: 'mfcc4_delta_var',
