@@ -1,3 +1,15 @@
+# 10/13  相似歌單推薦 *更新*
+### 檔案: `recommend_songlist_userA.py`
+  ***** 改為列出所有歌曲相似排序 （finalcav資料集）*****
+  >1. 準備檔案 `videodownload.py` ~~`preprocessing.py`~~ librosa_to_csv.py 放到與程式碼同一個資料夾。
+  >2. 接續步驟 (參考`recommend_songlist_2.py`使用)
+<br>
+librosa_to_csv.py: https://github.com/Ryanlin6700/Music-Genre-Finder/tree/main/librosa_to_csv <br>
+finalcav 資料集: https://github.com/Leo840811/music/tree/main/modeltest
+<br>
+
+*** 
+
 # 10/7  相似歌單推薦 *更新*
 ### 檔案: `recommend_songlist_user.py`
   ***** 配合下載歌曲、轉特徵.py 使用可以推薦相識歌單，新增歌名 + url （finalcav資料集）*****
