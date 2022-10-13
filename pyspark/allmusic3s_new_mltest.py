@@ -22,6 +22,7 @@ spark = SparkSession.builder.appName("sqldemo").getOrCreate()
 spark.conf.set("spark.sql.execution.arrow.pyspark.enabled", True)
 
 sdf_3s = spark.read.csv('allmusic3s_new.csv', sep=",", header=True, inferSchema=True)
+#sdf_3s = spark.read.csv('tmp/allmusic3s_new.csv', sep=",", header=True, inferSchema=True)  # hadoop HA
 sdf_3s.createOrReplaceTempView("dfTable")
 sdf_3s = sdf_3s.dropna(how='any')
 
