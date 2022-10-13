@@ -2,7 +2,7 @@
 >音檔匯入特徵函數測試，繪製頻譜、播放音檔等參考 jupyter notebook 呈現。
 >
 ## librosa_to_csv
->優化`preprocessing.py`程式碼。
+>優化`preprocessing.py`程式碼，更名為 `librosa_to_csv.py`。
 >
 ## model test
 >機器學習模型試跑，用 `allmusic3s.csv` 資料集。
@@ -13,4 +13,4 @@
 
 ## recommend_songlist
 >相似歌單推薦程式，用 `finalcsv3s.csv`資料集與 userupload csv 資料合併轉換，推薦資料集最相似 top5 的歌名、url。<br>
->✨ _需配合 videodownload 和 preprocessing 兩支.py程式執行。_
+>✨ _需配合 videodownload.py 和 ~~preprocessing.py~~ 更新為 librosa_to_csv.py 兩支.py程式執行。_
