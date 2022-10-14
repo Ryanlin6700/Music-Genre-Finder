@@ -13,9 +13,9 @@ spark = SparkSession.builder.appName("haha").getOrCreate()
 # standalone mode
 #spark = SparkSession\
 #        .builder\
-#        .master("spark://125.example.com")\
+#        .master("spark://bdes125.example.com:7077")\
 #        .config('spark.cores.max','2')\
-#        .config('spark.executor.memory','6880m')\
+#        .config('spark.executor.memory','6880M')\
 #        .appName("haha")\
 #        .getOrCreate()
 
@@ -54,4 +54,5 @@ rf = RandomForestClassifier(featuresCol='mmfeatures',labelCol='y',numTrees=1000 
 # GBTClassifier
 #gbt = GBTClassifier(featuresCol='mmfeatures',labelCol='y')
 
+#call function
 select_model(rf, trainingData, testData)
