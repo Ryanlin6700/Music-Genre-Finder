@@ -8,15 +8,15 @@ from pyspark.ml import Pipeline
 from pyspark.ml.classification import LogisticRegression, RandomForestClassifier, GBTClassifier
 
 # Local mode
-spark = SparkSession.builder.appName("sqldemo").getOrCreate()
+spark = SparkSession.builder.appName("haha").getOrCreate()
 
 # standalone mode
 #spark = SparkSession\
 #        .builder\
-#        .master("spark://master.example.org:7077")\
-#        .config('spark.cores.max','1')\
-#        .config('spark.executor.memory','1G')\
-#        .appName("clusterdemo")\
+#        .master("spark://125.example.com")\
+#        .config('spark.cores.max','2')\
+#        .config('spark.executor.memory','6880m')\
+#        .appName("haha")\
 #        .getOrCreate()
 
 spark.conf.set("spark.sql.execution.arrow.pyspark.enabled", True)
