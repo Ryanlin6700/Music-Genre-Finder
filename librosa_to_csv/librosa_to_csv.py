@@ -502,7 +502,7 @@ def librosa_feature_op(file_path, csv_path):
                     feature_obj_dir[key]._set_value(id, np_operate(re_np.findall(feature_dir.get(key)), frames_to_time))  
                     continue
                 if key == 169 or key == 170:  #songid、label
-                    feature_obj_dir[key]._set_value(id, file_name) 
+                    feature_obj_dir[key]._set_value(id, "user") 
                     continue
             id += 1
             print(name)
