@@ -1,5 +1,5 @@
 # 11/01  模型評估繪圖
-### 檔案: `model_plot.ipynb`
+### 檔案: `MODEL_PLOT.ipynb`
   ***** *****
   >KNN <br>
   >RandonForest <br>
